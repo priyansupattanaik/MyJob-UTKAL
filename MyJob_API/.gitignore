@@ -1,0 +1,42 @@
+# Node.js
+node_modules/
+
+# Logs
+logs
+*.log
+npm-debug.log*
+
+# Dependency directories
+jspm_packages/
+
+# Build output
+dist/
+build/
+
+# VSCode settings
+.vscode/
+
+# MacOS
+.DS_Store
+
+# Windows
+Thumbs.db
+
+# Linux
+*~
+
+# Coverage directory for code coverage reports
+coverage/
+
+# SQLite databases
+*.sqlite
+*.sqlite3
+
+# IDE-specific files
+.idea/
+
+# npm package-lock file
+package-lock.json
+
+# Yarn lock file
+yarn.lock
