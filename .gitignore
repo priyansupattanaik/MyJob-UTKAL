@@ -1,0 +1,59 @@
+# ========================
+# Node / NPM
+# ========================
+node_modules/
+npm-debug.log*
+yarn-debug.log*
+yarn-error.log*
+
+# ========================
+# React Native / Metro
+# ========================
+.metro-health-check*
+.expo/
+
+# ========================
+# Android Build Artifacts
+# ========================
+myjob_ui/android/.gradle/
+myjob_ui/android/app/.cxx/
+myjob_ui/android/app/build/
+myjob_ui/android/build/
+myjob_ui/android/local.properties
+myjob_ui/android/app/debug.keystore
+
+myjob_app/android/.gradle/
+myjob_app/android/app/.cxx/
+myjob_app/android/app/build/
+myjob_app/android/build/
+myjob_app/android/local.properties
+myjob_app/android/app/debug.keystore
+
+# ========================
+# iOS Build Artifacts
+# ========================
+myjob_ui/ios/build/
+myjob_ui/ios/Pods/
+myjob_ui/ios/*.xcworkspace
+myjob_app/ios/build/
+myjob_app/ios/Pods/
+myjob_app/ios/*.xcworkspace
+
+# ========================
+# Environment / Secrets
+# ========================
+.env
+.env.local
+.env.*.local
+
+# ========================
+# IDE & OS
+# ========================
+.DS_Store
+Thumbs.db
+*.log
+
+# ========================
+# VSCode (optional — keep settings.json if desired)
+# ========================
+# .vscode/
